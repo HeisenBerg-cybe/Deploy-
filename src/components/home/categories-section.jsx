@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { getFeaturedCategories } from '@/data/products';
 import { useState, useEffect } from 'react';
-
+//categories section for home page
 export function CategoriesSection() {
   const [featuredCategories, setFeaturedCategories] = useState([]);
   const [loading, setLoading] = useState(true);
